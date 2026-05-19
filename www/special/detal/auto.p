@@ -1,5 +1,5 @@
 @auto[]
-$connect_string[mysql://u545600_allurese:4_2In_EsTsy@localhost/u545600_allureseas?charset=cp1251]
+$connect_string[mysql://u545600_allurese:4_2In_EsTsy@u545600.mysql.masterhost.ru/u545600_allureseas?charset=cp1251]
 
 ^rem{*** Go ***}
 $sWorkingDir[^file:dirname[$request:uri]]
