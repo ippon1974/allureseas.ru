@@ -136,7 +136,7 @@ $h_exchange[
 @phone[]
 #<noindex>+7 (495) 585-33-71</noindex>
 #<noindex>+7 (495) 638-53-60</noindex>
-<noindex>+7 (985) 769-61-08</noindex>
+<noindex>+7 (925) 585-33-71</noindex>
 #@phone[]
 
 @skype[]
