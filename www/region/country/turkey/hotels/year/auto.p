@@ -69,6 +69,7 @@ $found(^hotel_year.count[])
 	</dl>
 	</td>
 	</tr>
+	<tr><td><br /></td></tr>
 	}
 	</table>
 	}{}

@@ -3,7 +3,6 @@ $db[^table::load[/../data/connection/db.cfg]]
 $connect_string[mysql://$db.dbname:^db.passw.trim[]@$db.server/$db.dbname?charset=cp1251]
 #$connect_string[mysql://u545600_allurese:4_2In_EsTsy@localhost/u545600_allureseas?charset=cp1251]
 
-
 $MAIL[ 
    $.SMTP[localhost]
 ]

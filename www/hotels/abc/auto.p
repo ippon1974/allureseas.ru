@@ -15,7 +15,7 @@ $hotel_[^hotel.select($hotel.country_id==6)]
 	<td valign="top">
 	
 	<table>
-	<tr><td><h4>Отели на букву &laquo^;$form:letter&raquo^;</td></tr>
+	<tr><td><h1>Отели на букву &laquo^;$form:letter&raquo^;</h1><br /></td></tr>
 	<tr>
 	<td>
 	^printalfa[]
@@ -45,6 +45,7 @@ $h_hotels.hotel_country.[$catalog.country_id] $h_hotels.hotel_resort_ru.[$catalo
 ^if(def $catalog.founded_date){Построен: $catalog.founded_date г.<br />}{}^if(def $catalog.building_conservation_date){Реконструирован: $catalog.building_conservation_date г.}{}</p>
 </td>
 </tr>
+<tr><td><br /></td></tr>
 }
 </table>
 #@printalfa[]

@@ -16,7 +16,7 @@ $found(^hotel_year.count[])
 	<td valign="top"  width="">
 	<table class="hotels" border="0" cellpadding="2" cellspacing="4" width="100%">
 	<tr>
-	<td><h4>Отели построенные в $form:founded году <span class="count_hotels">(^num_decline[$found;найден $found отель;найдены $found отеля;найдены $found отелей])</span></h4></td>
+	<td><h1>Отели построенные в $form:founded году <span class="count_hotels">(^num_decline[$found;найден $found отель;найдены $found отеля;найдены $found отелей])</span></h1><br /></td>
 	</tr>
 	<tr>
 	<td>
@@ -30,6 +30,7 @@ $found(^hotel_year.count[])
 	^if(def $hotel_year.founded_date){Построен: $hotel_year.founded_date г.<br />}{}^if(def $hotel_year.building_conservation_date){Реконструирован: $hotel_year.building_conservation_date г.}{}</p>
 	</td>
 	</tr>
+	<tr><td><br /></td></tr>
 	}
 	</table>
 	

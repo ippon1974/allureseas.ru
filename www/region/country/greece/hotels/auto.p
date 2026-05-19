@@ -58,6 +58,7 @@ $hotel_[^hotel.select($hotel.country_id==^paramCountryId[])]
 	^if(def $news.founded_date){Построен: $news.founded_date г.<br />}{}^if(def $news.building_conservation_date){Реконструирован: $news.building_conservation_date г.}{}</p>
 	</td>
 	</tr>
+	<tr><td><br /></td></tr>
 	}
 	</table>
 	

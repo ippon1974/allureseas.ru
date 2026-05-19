@@ -23,7 +23,7 @@ $hotel_[^hotel.select($hotel.country_id==^paramCountryId[])]
 	<table>
 	<tr>
 	<td>
-	<h4>Отели $h_hotels.hotel_country_hotel.[$hotel_.country_id] на букву &laquo^;$form:letter&raquo^;
+	<h1>Отели $h_hotels.hotel_country_hotel.[$hotel_.country_id] на букву &laquo^;$form:letter&raquo^;</h1><br />
 	</td>
 	</tr>
 	<tr>
@@ -60,6 +60,7 @@ $h_hotels.hotel_country.[$catalog_cell.country_id] $h_hotels.hotel_resort_ru.[$c
 ^if(def $catalog_cell.founded_date){Построен: $catalog_cell.founded_date г.<br />}{}^if(def $catalog_cell.building_conservation_date){Реконструирован: $catalog_cell.building_conservation_date г.}{}</p>
 </td>
 </tr>
+<tr><td><br /></td></tr>
 }
 </table>
 	
