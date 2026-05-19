@@ -1,5 +1,12 @@
 @auto[]
-$connect_string[mysql://u545600_allurese:4_2In_EsTsy@u545600.mysql.masterhost.ru/u545600_allureseas?charset=cp1251]
+
+$localhost[$env:REMOTE_ADDR]
+^if("127.0.0.1" eq $localhost){
+	$connect_string[mysql://u545600_allurese:4_2In_EsTsy@localhost/u545600_allureseas?charset=cp1251]
+}{
+	$connect_string[mysql://u545600_allurese:4_2In_EsTsy@u545600.mysql.masterhost.ru/u545600_allureseas?charset=cp1251]
+}
+#$localhost[]
 
 ^rem{*** Go ***}
 $sWorkingDir[^file:dirname[$request:uri]]

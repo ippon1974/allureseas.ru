@@ -69,7 +69,6 @@ WeatherXML.p
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-
 <meta name="google-site-verification" content="S3eDAfRBbEFnBjTk1ZcTXikdTTNvUrCTGyJdy--qH14" />
 <meta http-equiv="Content-Type" content="text/html^; charset=windows-1251" />
 <meta name="description" content="^title_global[] | ^description_global[]" />
