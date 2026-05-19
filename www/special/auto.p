@@ -35,7 +35,7 @@ $now[^date::now[]]
 	<dd class="hotel_detal"><a href="/special/detal/id/$special.id/" title="Отель $special.hotel_name_en">Отель $special.hotel_name_en</a><sup>$h_hotels.hotel_rating_img.[$special.hotel_rating_id]</sup></dd>
 	$total[^if(^currency.locate[id;$special.price_type]){$currency.currency}{}]
 	$total_rub[^if($special.price){$text(^eval($special.price*$total))}{}]
-	^if($special.price){<dd class="dt"><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС 18%</em>)</span></dd>}{}
+	^if($special.price){<dd class="dt"><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС 22%</em>)</span></dd>}{}
 	^if(def $special.hotel_power){<dd class="hotel_power"><span>^untaint[as-is]{$special.hotel_power}</span></dd>}{}
 	<dd><span>Кол-во человек: ^num_decline[$found_human; $found_human взрослый; $found_human взрослых; $found_human взрослых] ^if($special.child_count){ + ^num_decline[$found_human_child; $found_human_child ребенок; $found_human_child детей; $found_human_child детей]}{}</span></dd>
 	^if($special.night_count){<dd class="dt"><span>Кол-во ночей: $special.night_count</span></dd>}{}
