@@ -210,7 +210,7 @@ $currency_[^db:getCurrency[]]
     $total_rub[^if($special_select.price){$text(^eval($special_select.price*$total))}{}]
 	
 	<p><strong>$currency.id<a href="/special/detal/id/$special_select.id/" title="Спецпредложение в отель: $special_select.hotel_name_en">$special_select.hotel_name_en</a></strong><br>
-	Даты: ^dtf:format[%d.%m.%Y;$special_select.dt_tour_start] &mdash^; ^dtf:format[%d.%m.%Y;$special_select.dt_tour_end] на ^num_decline[$found; $found ночь; $found ночи; <span>$found</span> ночей]. Кол-во человек: ^num_decline[$found_human; $found_human взрослый; $found_human взрослых; $found_human взрослых] ^if($special_select.child_count){ + ^num_decline[$found_human_child; $found_human_child ребенок; $found_human_child детей; $found_human_child детей]}{}.<br />Стоимость тура: $text (<em>^int2str:money2str($text) в т.ч. НДС 18%</em>)</p>
+	Даты: ^dtf:format[%d.%m.%Y;$special_select.dt_tour_start] &mdash^; ^dtf:format[%d.%m.%Y;$special_select.dt_tour_end] на ^num_decline[$found; $found ночь; $found ночи; <span>$found</span> ночей]. Кол-во человек: ^num_decline[$found_human; $found_human взрослый; $found_human взрослых; $found_human взрослых] ^if($special_select.child_count){ + ^num_decline[$found_human_child; $found_human_child ребенок; $found_human_child детей; $found_human_child детей]}{}.<br />Стоимость тура: $text (<em>^int2str:money2str($text) в т.ч. НДС 22%</em>)</p>
 	}
 	<span><a href="/special/$h_hotels.item_country.[$hotel.country_id]/" title="Все спецпредложения по $h_hotels.hotel_country_hotel_special.[$hotel.country_id]">Все спецпредложения по $h_hotels.hotel_country_hotel_special.[$hotel.country_id]</a></span>
 	</div>
