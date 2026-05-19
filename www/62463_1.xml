@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forecast city="Хургада" climate="1" xmlns="http://weather.yandex.ru/forecast" country="Египет" region="11486" lon="33.808931" zoom="10" id="62463" source="Station" country_id="8f8937995d7f732c4a764ef0133229b2" link="http://pogoda.yandex.ru/hurgada/" geoid="11486" lat="27.253962" exactname="Хургада" slug="hurgada">
+<yesterday id="133090606">
+    <station lang="en" distance="8">Hurghada International</station>
+    <observation_time>2014-01-31T11:00:00</observation_time>
+    <uptime>2014-01-31T11:46:47</uptime>
+</yesterday>
+ <informer>
+    <temperature color="F5F2DC" type="night">12</temperature>
+    <temperature color="F9E8B1" type="tomorrow">27</temperature>
+  </informer>
+  <day date="2014-02-01">
+    <sunrise>06:31</sunrise>
+    <sunset>17:25</sunset>
+    <moon_phase code="growing-moon">9</moon_phase>
+    <moonrise>07:20</moonrise>
+    <moonset>19:21</moonset>
+    <biomet index="0" geomag="1" uv="1">
+      <message code="meteosens-favorable"/>
+      <message code="solar-weak"/>
+      <message code="uv-small"/>
+    </biomet>
+    <day_part typeid="1" type="morning">
+      <temperature_from>14</temperature_from>
+      <temperature_to>24</temperature_to>
+      <temperature-data>
+        <avg bgcolor="F7F3D3">18</avg>
+        <from>14</from>
+        <to>24</to>
+      </temperature-data>
+    </day_part>
+	<day_part typeid="2" type="morning">
+      <temperature_from>25</temperature_from>
+      <temperature_to>24</temperature_to>
+      <temperature-data>
+        <avg bgcolor="F7F3D3">18</avg>
+        <from>14</from>
+        <to>24</to>
+      </temperature-data>
+    </day_part>
+ </day>
+</forecast>

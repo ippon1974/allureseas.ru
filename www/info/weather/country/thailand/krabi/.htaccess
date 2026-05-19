@@ -1,0 +1,6 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /info/weather/country/thailand/krabi
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

@@ -1,0 +1,7 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /visa/d
+RewriteRule ^country/([^/]*)\.html$ /visa/d/?id=$1 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

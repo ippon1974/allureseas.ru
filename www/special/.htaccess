@@ -1,0 +1,7 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /special
+RewriteRule ^year/([^/]*)/month/([^/]*)\.html$ /special/?year=$1&month=$2 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

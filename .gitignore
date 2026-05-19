@@ -1,0 +1,11 @@
+.vscode/
+cgi-bin/
+data/
+Import_MySQL/
+temp/
+tempallure/
+.htpasswd
+www/.htaccess
+www/_test.html
+www/admin
+www/php

@@ -1,0 +1,16 @@
+* {margin: 0; padding: 0;}
+img {border: none;}
+li {list-style-type: none;}
+p, li, dd {font-size: 1em;line-height: 1.1em;}
+li p, dd p {font-size: 1em; padding-bottom:.5em;}
+hr {border: 0 hidden; border-top: 1px solid #d1d1d1; height: 0; clear: both;}
+sup{font-size: 0.9em;}
+a {color: #3399cc;}
+a:hover {color: ;}
+a:visited {}
+.clear {clear: both; min-height: 1px; height: 1px; line-height: 1px; width: 1px; font-size: 1px;}
+.hlp{cursor:help;}
+
+/*.layout {min-width: 980px;max-width: 2000px;margin: 0 auto; padding: 0;}*/
+.layout {min-width:980px; max-width:1280px;margin:0 auto;padding:0;overflow:hidden;}
+.layout {width:expression((document.documentElement.clientWidth || document.body.clientWidth) < 980? "980px": ((document.documentElement.clientWidth || document.body.clientWidth) >1280?"1280px":"auto"));}

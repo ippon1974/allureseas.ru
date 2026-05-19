@@ -1,0 +1,85 @@
+
+					UPDATE currency
+					SET 
+						currency = '100'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '150'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '250'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '300'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '850'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '1000'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '2000'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '1050'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '3080'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '1024'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '45'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '2'
+					WHERE
+						currency_id = '1'
+				
+					UPDATE currency
+					SET 
+						currency = '2'
+					WHERE
+						currency_id = '2'
+				
+					UPDATE currency
+					SET 
+						currency = '3500'
+					WHERE
+						currency_id = '1'
+				

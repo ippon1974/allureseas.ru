@@ -1,0 +1,45 @@
+table {text-align: center;font-size: 20pt;width: 100%;}
+
+body { font: normal 60.5% Arial, 'Times New Roman', "Lucida Grande", Georgia, serif; color: #000; }
+
+table.clobal {}
+table.clobal tr {vertical-align: top;}
+table.clobal div {padding: 0.5em 0 0.5em 0;}
+table.clobal td h1 {color:#5a5a5a; margin: 0 0 0.5em 0; font-size: 2.5em; font-weight: normal;}
+table.clobal td h1 a {border-bottom: 3px double #191970; text-decoration: none; color:#191970;}
+table.clobal td h2 {color:#6c6c6c; margin: 0 0 0.5em 0; font-size: 2.7em; font-weight: normal;}
+table.clobal td p {font-size: 1.3em; margin: 0 0 0.5em 0;}
+table.clobal td.footer {font-size: 1.1em; color:#6c6c6c;}
+
+table.visa_screen {font-size: 1.2em;}
+table.visa_screen td {border: 1px dotted #c6c6c6;}
+table.visa_screen th {border: 1px dotted #c6c6c6; padding: 5px 0 5px 5px; text-align: left; font-weight: bold; background: #fff;}
+table.visa_screen td span a {color:#4682b4; text-decoration: none;}
+table.visa_screen td span a:hover {background: #FDF5E6; color:#ff6347; text-decoration: none;}
+table.visa_screen td span a:visited {color:#800080; text-decoration: none;}
+
+table.visa_screen td span.price {padding: 0px 0 0px 5px; font-size: 0.9em;}
+p.right_text {font-size: 1.2em; margin: 0 0 0 0;}
+table.visa_screen td {}
+
+
+table.right {font-size: 1.1em;}
+table.right td strong {background-color: #ffefd5;}
+table.right td a {color:#4682b4; text-decoration: none; border-bottom: 1px dashed #4682b4;}
+table.right td a:hover {color:#191970; text-decoration: none; border-bottom: 1px dashed #191970;}
+
+table.clobal td.footer a {color:#708090;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

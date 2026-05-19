@@ -1,0 +1,7 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /region/country/turkey/hotels
+RewriteRule ^page/([^/]*)\.html$ /region/country/turkey/hotels/?page=$1 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

@@ -1,0 +1,435 @@
+.header {padding: 25px 0 0 30px; clear: both;}
+.header p.index {font-size:0.7em; margin: 0 0 0.5em 0;}
+.header p a {color: #003366;}
+.header ul {overflow: hidden; height: auto; padding-left: 0px; margin-bottom:15px;}
+.header li {float: left; width: 22.6%; margin-right: .9%; font-size: 1.0em; color: #777; font-style: normal;}
+.header li a {margin: 0 0px 5px 0; color: #003366; font-style: normal; font-size: 1.4em; line-height: 1em;}
+.header li p {margin-top: 5px; font-size:1.1em;}
+.header li p a {font-size:1em; font-style: normal;}
+
+.header li.active a {padding-right: 13px; color: #484848; font-style: normal; text-decoration: none;}
+.header li.active p {color: #006ab4;}
+.header li.active p a {color: #006699; font-size:1em; text-decoration: underline; background: none; padding-right:0;}
+
+.post {background-color: #ffefd5; padding: 5px 5px; width: auto; height: 2.5em; border-top: 2px solid #fcfcfc; border-left: 2px solid #fcfcfc; border-right: 2px solid #484848; border-bottom: 2px solid #484848;}
+.post_wh {background-color: ; padding: 5px 5px; width: auto; height: 2.5em; border-top: 2px solid #fcfcfc; border-left: 2px solid #fcfcfc; border-right: 2px solid #484848; border-bottom: 2px solid #484848;}
+.post_wh_spec {font-size:1.2em; background-color: #eaeaea; padding: 5px 45px; width: auto; height: 3.5em; border-top: 2px solid #fcfcfc; border-left: 2px solid #fcfcfc; border-right: 2px solid #484848; border-bottom: 2px solid #484848;}
+
+
+img.thumb {
+	float: left;
+	margin: 0 0px 0 0px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+table#navigation {}
+table#navigation td {font-size: 1.3em;}
+table#navigation td a {color:#0033cc;}
+table#navigation td a:hover {color:#ff0000;}
+
+ul#list {margin:0;}
+ul#list ul.in-list {margin:0 0 0 10px; padding: 0 0 0 0;}
+ul#list li {}
+ul#list li a {color:#0033cc;}
+ul#list li a:hover {color:#ff9900;}
+ul#list li em {font-size: 0.6em;}
+ul#list li span {color:#909090; font-size: 0.8em;}
+
+table#news {margin: 25px 0 0 25px;}
+table#news td {}
+table#news td.dt {font-size: 0.8em; color:#a2a2a2;}
+table#news td a {color:#336699;}
+table#news td p {margin: 0 0 0.5em 0;}
+
+table#news td dl {margin: 0 0 0.5em 0;}
+table#news td dt {font-weight: bold;}
+
+div.bodynews {}
+
+div.filter_hotels {border: 1.0px solid #b0c4de; margin: 0 0 0 0; padding: 0 0 0 0;}
+div.filter_hotels fieldset {background: #EAF5F8; padding: 0px 10px 5px 10px;}
+div.filter_hotels fieldset p {padding: 5px 0 5px 5px; margin: 0;}
+
+div.head_result_cell {width: 90%; margin: 0 0 0.5em 0;}
+div.head_result_cell strong {color:#ff0000;}
+
+table#hotels {margin: 0px 0px 0px 20px;}
+table#hotels table tr th {text-align: left;}
+table#hotels td.scroller p a {color:#4682b4;}
+table#hotels td h4 {font-weight: normal; color:#000; padding: 0 0 0 10px; margin: 0;}
+table#hotels td h4 span.count_hotels {color:#7e7e7e; font-size: 0.8em;}
+table#hotels td span.all_hotels {font-size: 0.8em;}
+table#hotels td span.all_hotels a {color:#8b0000;}
+
+
+table.menu_hotels {margin: 0 0 0.5em 0;}
+table.menu_hotels td a {color:#336699;}
+table.menu_hotels td a:hover {color:#ff0000;}
+table.menu_hotels td a:visited {color:#993366;}
+
+table.menu_hotels_all {}
+table.menu_hotels_all th {padding: 5px; color:#b4b4b4; text-align: left;}
+table.menu_hotels_all td.img {}
+table.menu_hotels_all td {padding: 5px;}
+table.menu_hotels_all td dl {margin: 0 0 0.5em 0;}
+table.menu_hotels_all td dl dt {font-weight: bolder; font-size: 0.9em;}
+table.menu_hotels_all td dl dt span {font-weight: normal; font-size: 0.8em;}
+table.menu_hotels_all td dl dt span a {color:#006600;}
+table.menu_hotels_all td dl dt a {}
+table.menu_hotels_all td dl dt a:hover {}
+table.menu_hotels_all td dl dt a:visited {color:#993366;}
+
+table.menu_hotels_all_special{background-color:#ffecec; border: 1px solid #ffc0cb;}
+table.menu_hotels_all_special th{padding: 10px; font-size: 0.9em;}
+table.menu_hotels_all_special th a{font-weight: bolder; color:#003399;}
+table.menu_hotels_all_special td{padding: 10px;}
+table.menu_hotels_all_special td dl{}
+table.menu_hotels_all_special td dl dt{font-size: 0.8em;}
+table.menu_hotels_all_special td dl dd span{font-size: 0.9em;}
+table.menu_hotels_all_special td dl dt a{color:#003399;}
+
+table.detal {margin: 0 0 0 25px; padding: 0 0 0 0;}
+table.detal td {}
+table.detal td.left_tbl {padding: 0.8em 5px;}
+table.detal td.left_tbl h1 {margin: 0.5em 0 0.5em 0; padding: 0 0 0 0; font-size: 1.5em;}
+table.detal td.right_tbl {padding: 0.8em 5px 0.8em 5px;}
+
+table.right_contact {margin: 0.5em 0 0 10px;}
+table.right_contact td dl {margin: 0.5em 0 0 0px;}
+table.right_contact td dl dt {font-weight: bolder;}
+table.right_contact td dl.right_contact_dl_first {font-size: 0.85em;}
+table.right_contact td dl.right_contact_dl_first dt {font-weight: normal;}
+table.right_contact td dl dt span {font-size: 0.85em;color:#006600;font-weight: bolder;}
+
+table.detal td fieldset legend {font-weight: bolder;}
+table.detal td fieldset {font-size: 0.85em; margin: 0 0 0.5em 0; padding: 10px;}
+
+table.detal td dl {margin: 0 0 0.8em 0; padding: 0 0 0 0;}
+table.detal td dl dt {font-weight: bolder; margin: 0.5em 0 0.5em 0; font-size: 1.3em;}
+
+
+div.sub_navi {font-size: 0.9em; margin:0; padding: 0 0 0 0;}
+div.sub_navi a {color:#4682b4;}
+
+table.abc {margin:0 0 0.5em 0; background: #EAF5F8; border: 1.0px solid #b0c4de;}
+table.abc td {font-weight: bolder; padding: 5px 0 5px 0; text-align: center;}
+table.abc td a {color: #4682b4;}
+table.abc td a:visited {color: #9932cc;}
+table.abc td a:hover {color: #ff0000;}
+table.abc td a.act {text-decoration: none; font-size: 1.0em; color: #ff0000;}
+
+
+table.table_img {margin:0 0 0 10px;}
+table.table_img td {padding: 5px;}
+table.table_img td img {border: 2px solid #87ceeb;}
+
+div.f-head-list {color:#000; width: 240px; padding: 2px 0 2px 0; font-size: 0.9em;}
+div.f-head-list a {text-decoration: none; border-bottom: 2px dotted #006699;color:#006699;}
+
+div.year_hotels {width: 97%; background: #EAF5F8; border: 1px solid #b0c4de; margin: 0 0 0.5em 0; padding: 5px;}
+div.year_hotels p {font-size: 0.9em; margin: 0; padding: 0;}
+div.year_hotels span {font-size: 0.8em;}
+div.year_hotels span a {color:#336699;}
+div.year_hotels span a:visited {color:#800080;}
+div.year_hotels span.active a {color:#ff3300;}
+
+
+div.resort_hotels {width: 98%; background: #EAF5F8; border: 1px solid #b0c4de; margin: 0 0 0.5em 0; padding: 5px;}
+div.resort_hotels p {font-size: 0.9em; margin: 0; padding: 0;}
+div.resort_hotels span {font-size: 0.8em;}
+div.resort_hotels span a {color:#336699;}
+div.resort_hotels span a:visited {color:#800080;}
+div.resort_hotels span.active a {color:#ff3300;}
+
+
+
+div.footer{text-align: center; padding: 0 25px 0 25px; clear: both;}
+div.footer span.ad{font-size: 0.7em;color:#a2a2a2;}
+div.footer span.ad a{color:#ff0000;}
+
+ul.oriental {margin: 0 0 0 35px; padding: 0 0 0 0;}
+ul.oriental li {list-style: disc;}
+
+div.banner_header_contacts_center {float: left; margin: 0 0 10px 0px;}
+div.banner_header_contacts_center span.phone sup.city {letter-spacing: normal; font-size: 0.5em;font-weight: ;color:#008000;}
+div.banner_header_contacts_center span.code {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color:#6c6c6c; font-size: 1.5em;}
+div.banner_header_contacts_center span.phone {letter-spacing: 1.5px; font-family:'BebasNeueRegular', Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 2.7em;font-weight: ;color:#ff0000;}
+div.banner_header_contacts_center p.mode {padding: 0 0 0 90px;}
+
+table.formordershotels{border: 3px solid #f5deb3; margin: 1.0em 0 0 0;}
+table.formordershotels th{border-bottom: 1px dotted #cd853f; background-color: #fef9e7; padding: 5px; text-align: left; font-weight: normal;}
+table.formordershotels td{border-right: 1px dotted #cd853f; border-bottom: 1px dotted #cd853f; background-color: #fef9e7; padding: 5px;}
+table.formordershotels td p span{color:red;}
+
+input.fake {display: none; visibility: collapse; margin: 0; padding: 0;}
+input.real {margin: 0; padding: 0;}
+
+div.block_right_detal{width: 80%; margin: 1em 10px 1em 15px; padding: 0;}
+
+div.altHotels{}
+div.altHotels fieldset {background-color: #fef9e7;}
+div.altHotels fieldset dl{margin: 0 0 1.5em 0;}
+div.altHotels fieldset dl dt{font-size: 0.9em; margin: 0;}
+div.altHotels fieldset dl dd{font-size: 0.9em;}
+div.altHotels fieldset dl dt a{color:#336699;}
+div.altHotels fieldset dl dt a:visited{color:#9933cc;}
+div.altHotels fieldset dl dt a:hover{color:#ff3300;}
+
+@font-face{font-family:'BebasNeueRegular';src:url(/css/font/BebasNeue-webfont.eot);src:url(/css/font/BebasNeue-webfont.eot?iefix) format('eot'),url(/css/font/BebasNeue-webfont.woff) format('woff'),url(/css/font/BebasNeue-webfont.ttf) format('truetype'),url(/css/font/BebasNeue-webfont.svg#webfontfvFLBU0N) format('svg');font-weight:normal;font-style:normal;}
+
+
+h2.fontheader{
+font-size: 2.0em; 
+font-family:'BebasNeueRegular',Arial,sans-serif; 
+letter-spacing:0.0em;
+text-transform:uppercase;
+text-decoration:none;
+color:#ff6600;
+}
+
+
+table.special{margin: 0;}
+table.special td.special_left{}
+table.special td.special_left div.special_left_div{margin:0 0 0 30px;}
+table.special td.special_left div.special_left_div div.special_left_nav_country{}
+table.special td.special_left div.special_left_div div.special_left_nav_country p{color:#800000; margin:0 0 0.5em 0;font-size: 0.7em; font-weight: bolder; text-transform:uppercase;}
+table.special td.special_left div.special_left_div div.special_left_nav_country p a{color:#800000;}
+table.special td.special_left div.special_left_div div.special_left_nav_country ul{margin: 0;}
+table.special td.special_left div.special_left_div div.special_left_nav_country ul li{line-height: 1.2em;}
+table.special td.special_left div.special_left_div div.special_left_nav_country ul li a{color:#000080;}
+
+
+
+table.special td.special_right{}
+table.special td.special_right div.div_special_right{}
+table.special td.special_right div.div_special_right div.history_browsing{background-color:#f5f5dc;margin:0 0 0.5em 0; padding: 0.5em 10px 0.5em 10px;}
+table.special td.special_right div.div_special_right div.history_browsing p{color:#800000; margin:0 0 0.5em 0;font-size: 0.7em; font-weight: bolder; text-transform:uppercase;}
+table.special td.special_right div.div_special_right div.history_browsing dl{margin:0 0 0.5em 0;}
+table.special td.special_right div.div_special_right div.history_browsing dl dt{margin:0 0 0.2em 0; font-size: 0.8em; font-weight: bolder;}
+table.special td.special_right div.div_special_right div.history_browsing dl dt a{color:#000080;}
+#table.special td.special_right div.div_special_right div.history_browsing dl dt a:visited{color:#8a2be2;}
+table.special td.special_right div.div_special_right div.history_browsing dl dt a:hover{color:#ff0000;}
+table.special td.special_right div.div_special_right div.history_browsing dl dd{font-size: 0.8em;}
+
+
+table.special td.special_center{}
+table.special td.special_center{}
+table.special td.special_center div.special_center_list{}
+table.special td.special_center div.special_center_list h1.fontheader_spec{font-size: 2.2em; color:#ff6347;}
+
+
+
+table.special td h1{
+font-size: 2.5em;
+font-family:'BebasNeueRegular',Arial,sans-serif; 
+margin: 0 0 0.5em 0;
+color:#006699;
+text-transform:uppercase;
+}
+
+
+
+div.special_center_list{padding: 0 0 0 0; margin: 0 20px 0 20px;}
+div.special_center_list dl{margin: 0 0 1.0em 0;}
+div.special_center_list dl dt{margin: 0 0 0 0;}
+div.special_center_list dl dd.hotel_detal{font-weight: bolder;text-transform: uppercase; margin: 0 0 0.3em 0;}
+div.special_center_list dl dd.dt span {margin: 0 10px 0 0;}
+div.special_center_list dl dd.actual span {margin: 0 0 0.3em 0; color:#008080;font-weight: bolder;}
+div.special_center_list dl dd.actual_red span {color:#ff4500;font-weight: bolder;}
+div.special_center_list dl dd.actual_end span {color:#ff0000;font-weight: bolder;}
+div.special_center_list dl dd.dd_pdf {margin: 0 0 0.3em 0;}
+
+div.special_center_list dl dd.hotel_detal a{font-weight: bolder; color:#006699;}
+div.special_center_list dl dd.hotel_detal a:hover {color:#ff6347;}
+div.special_center_list dl dd.hotel_detal a:visited {color:#800080;}
+
+div.special_center_list dl dd.hotel_power{margin: 0.3em 0 0 0;}
+div.special_center_list dl dd.end {margin: 0.5em 0 0 0; border-top: 1px solid #eaeaea;}
+
+
+a.pdf {
+	padding: 0 0 0 20px;
+	background: url(/img/icon/icon-pdf.gif) no-repeat 0 0;
+	}
+a:visited.pdf{color:#9933cc;}
+
+
+a.pdf_big {
+	padding: 0px 100px 0px 100px;
+	background: url(/img/icon/big/icon-pdf.gif) no-repeat 0 0;
+	}
+a.pdf_big:visited.pdf{color:#9933cc;}
+
+a.doc {
+	padding-left: 20px;
+	background: url(/img/icon/icon-doc.gif) no-repeat 0 0;
+	color:#336699;
+	}
+a.doc:hover {
+	color:red;
+	}
+a.doc:visited {
+	color:#8b008b;
+	}
+	
+a.zip {
+	padding: 2px 0 2px 20px;
+	background: url(/img/icon/icon-zip.gif) no-repeat 0 0;
+	}
+	
+	
+
+table.formordersspecial{margin: 0 auto;}
+table.formordersspecial th{padding: 0.5em 0 0.5em 0; font-size: 1.5em; color:#ffff00; text-align: left; font-weight: bolder;}
+table.formordersspecial td{}
+table.formordersspecial td label.valid{font-weight: bolder; color:#ffff00;}
+table.formordersspecial td label {font-size: 0.8em; text-transform: uppercase; font-weight: bolder; color:#ffff00;}
+	
+	
+	
+table.detal_special{margin:0 0 0 20px;}
+table.detal_special td.left{}
+table.detal_special td.left div div.img_pdf{padding: 0;margin:1em 0 0 0; text-align: center;}
+table.detal_special td.center{}
+table.detal_special td.center div span.spec{padding: 0; margin:0;font-size: 1.0em;}
+
+
+table.detal_special td.center div.center_div div.center_div_nav_sub {font-size: 1.0em; margin: 0 0 0.5em 0;}
+table.detal_special td.center div.center_div div.center_div_nav_sub a {color:#000080;}
+
+table.detal_special td.center div.center_div {padding: 0 10px 0 10px;}
+table.detal_special td.center div h1{padding: 0; margin: 0; color: #228b22; letter-spacing:0.0em; font-size: 2.8em; font-family: Tahoma, Arial, 'BebasNeueRegular',sans-serif;text-transform:uppercase;}
+table.detal_special td.center div h2{padding: 0; margin: 0.5em 0 0 0; color: #ff6347; letter-spacing:0.05em; font-size: 2.5em; font-family: 'BebasNeueRegular', Tahoma, Arial,sans-serif;text-transform:uppercase;}
+table.detal_special td.center div h2 span{color:#00008b;}
+table.detal_special td.center div h3.actual{padding: 0; margin: 0; color: #228b22; letter-spacing:0.09em; font-size: 1.7em; font-family: 'BebasNeueRegular', Tahoma, Arial,sans-serif;text-transform:uppercase;}
+table.detal_special td.center div h3.actual_red{padding: 0; margin: 0; color: #ff6600; letter-spacing:0.09em; font-size: 1.7em; font-family: 'BebasNeueRegular', Tahoma, Arial,sans-serif;text-transform:uppercase;}
+table.detal_special td.center div h3.actual_end {padding: 0; margin: 0; color: #ff0000; letter-spacing:0.09em; font-size: 1.7em; font-family: 'BebasNeueRegular', Tahoma, Arial,sans-serif;text-transform:uppercase;}
+table.detal_special td.center div div.body {padding: 0; margin: 1.5em 0 0 0;}
+table.detal_special td.center div div.body strong.header {font-size: 0.8em; color: #990000; padding:0; margin:0 0 0 0; text-transform:uppercase;}
+table.detal_special td.center div div.body p {padding: 0.5em 0 0.5em 0; margin: 0;}
+
+
+table.detal_special td.right{}
+table.detal_special td.right div.right_div{background-color:; padding: 0.0em 10px 0.0em 10px;}
+table.detal_special td.right div.right_div div.right_div_mailform{background-image: url(/img/bg/bg_form_spec.gif); background-color:#ffe496; padding: 0.5em 0 0.5em 0;}
+table.detal_special td.right div.right_div div.right_div_form_ord_spec{padding: 0.5em 0 0.5em 0;}
+
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort{background-color:#e0ffff;margin:0 0 0em 0; padding: 0.5em 10px 0.5em 10px;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort p{margin:0 0 0.5em 0;font-size: 0.7em; font-weight: bolder; text-transform:uppercase;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl{margin:0 0 0.5em 0;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl dt{margin:0 0 0.2em 0; font-size: 0.8em; font-weight: bolder;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl dt a{color:#000080;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl dt a:visited{color:#8a2be2;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl dt a:hover{color:#ff0000;}
+table.detal_special td.right div.right_div div.right_div_alternativeSpecResort dl dd{font-size: 0.8em;}
+
+table.detal_special td.right div.right_div div.right_div_browsing{background-color:#f5f5dc;margin:0 0 0.5em 0; padding: 0.5em 10px 0.5em 10px;}
+table.detal_special td.right div.right_div div.right_div_browsing p{color:#800000; margin:0 0 0.5em 0;font-size: 0.7em; font-weight: bolder; text-transform:uppercase;}
+table.detal_special td.right div.right_div div.right_div_browsing dl{margin:0 0 0.5em 0;}
+table.detal_special td.right div.right_div div.right_div_browsing dl dt{margin:0 0 0.2em 0; font-size: 0.8em; font-weight: bolder;}
+table.detal_special td.right div.right_div div.right_div_browsing dl dt a{color:#000080;}
+#table.detal_special td.right div.right_div div.right_div_browsing dl dt a:visited{color:#8a2be2;}
+table.detal_special td.right div.right_div div.right_div_browsing dl dt a:hover{color:#ff0000;}
+table.detal_special td.right div.right_div div.right_div_browsing dl dd{font-size: 0.8em;}
+
+
+
+table.table_check_ok{margin:0 0 1.5em 0;}
+table.table_check_field{margin:0 0 1.5em 0;}
+table.table_check_user{margin:0 0 1.5em 0;}
+table.table_check_spam{margin:0 0 1.5em 0;}
+
+
+table#blank_hotel_view{border: 1px solid #9B9B9B;}
+table#blank_hotel_view td{background-color:#f5f5dc; border: 1px solid #9B9B9B; padding: 0.5em 10px 0.5em 10px;}
+table#blank_hotel_view td.blank_hotel_view_left{font-weight: bolder; width: 20%;}
+table#blank_hotel_view td.hotel_links a{font-weight: bolder; color:#191970;}
+table#blank_hotel_view td.hotel_links a:visited{font-weight: bolder; color:#8a2be2;}
+
+
+table#blank_airline_view{background-color: #f0f8ff;}
+table#blank_airline_view td.blank_airline_view_right{border: 1px solid #9B9B9B; padding: 0.5em 10px;}
+
+
+table#blank_airline_view td.blank_airline_view_left{border: 1px solid #9B9B9B; font-weight: bolder; width: 15%; padding: 0.5em 10px;}
+table#blank_airline_view table.in{border:0;}
+table#blank_airline_view table.in td{padding: 0.5em 10px 0.5em 10px;}
+table#blank_airline_view table.in td.img{width: 5%;}
+table#blank_airline_view table.in td.in_left{width: 30%;}
+table#blank_airline_view table.in td.in_center{width: 20%;}
+table#blank_airline_view table.in td.in_right{width: 35%;}
+
+table#blank_hotel_detal_site_view{}
+table#blank_hotel_detal_site_view td.h_1{padding: 0 0 0.5em 0; font-weight: bolder; font-size: 1.0em; color: #990000; text-transform:uppercase;}
+table#blank_hotel_detal_site_view td table.foto_list {}
+table#blank_hotel_detal_site_view td table.foto_list td {padding: 5px 10px 0 0;}
+table#blank_hotel_detal_site_view td table.foto_list td img {margin: 0 0px 0 0px;padding: 2px; border: 1px solid #ccc;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body {}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body dl {margin: 1em 0 1em 0;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body table.sm {margin: 0 0 1em 0;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body table.sm td p {padding: 0.5em 0 0.2em 0;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body table.sm td p strong {color: #228b22; text-transform:uppercase;font-size: 0.9em;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body table.sm td dl {margin: 1em 0 1em 0;}
+table#blank_hotel_detal_site_view td.blank_hotel_detal_site_view_body table.sm td dl dt {color: #228b22; padding: 0.5em 0 0.2em 0; font-size: 0.9em; text-transform:uppercase; font-weight: bolder;}
+
+
+div.detal_header_special{background-color:#eeffee; border: 1px solid #2f4f4f; padding: 0.5em 10px 0.5em 10px; margin: 1em 0 0 0;}
+div.detal_header_special span{font-size: 0.9em; color: #2f4f4f;}
+div.detal_header_special span a{color: #2f4f4f;}
+div.detal_header_special p{ margin: 0 0 0.5em 0;}
+div.detal_header_special p strong{}
+div.detal_header_special p strong a {color: #2f4f4f; text-decoration: underline;}
+
+div.detal_right_special{}
+div.detal_right_special fieldset {background-color: #eeffee;}
+div.detal_right_special fieldset dl{margin: 0 0 1.5em 0;}
+div.detal_right_special fieldset dl dt{font-size: 0.9em; margin: 0;}
+div.detal_right_special fieldset dl dd{font-size: 0.9em;}
+div.detal_right_special fieldset dl dt a{color:#2f4f4f;}
+div.detal_right_special fieldset dl dt a:visited{color:#9933cc;}
+div.detal_right_special fieldset dl dt a:hover{color:#ff3300;}
+div.detal_right_special fieldset p a{color:#2f4f4f;}
+
+div.menu_footer{font-size: 0.9em;}
+div.menu_footer a{color:#4682b4;}
+
+table.info{margin: 0;}
+table.info td.info_left{}
+table.info td.info_left div.info_left_div{margin:0 0 0 30px;}
+table.info td.info_left div.info_left_div div.info_left_nav_country{}
+table.info td.info_left div.info_left_div div.info_left_nav_country p{color:#800000; margin:0 0 0.5em 0;font-size: 0.7em; font-weight: bolder; text-transform:uppercase;}
+table.info td.info_left div.info_left_div div.info_left_nav_country p a{color:#800000;}
+table.info td.info_left div.info_left_div div.info_left_nav_country ul{margin: 0;}
+table.info td.info_left div.info_left_div div.info_left_nav_country ul li{line-height: 1.2em;}
+table.info td.info_left div.info_left_div div.info_left_nav_country ul li a{color:#4682b4;}
+
+table.info td h1{
+font-size: 2.2em;
+font-family:'BebasNeueRegular',Arial,sans-serif; 
+margin: 0 0 0.2em 0;
+color:#ff4500;
+text-transform:uppercase;
+}
+
+table.info td.info_center div p.title_desc_header {color:#6c6c6c; padding:0; margin: 0 0 0.5em 0;font-size: 1.1em;}
+
+div.fieldset_img{margin:0 0 0 12px;width:65%;}
+div.fieldset_img fieldset{width:auto;}
+div.fieldset_img fieldset legend {color:#6c6c6c; font-size: 0.8em;}
+
+
+
+table.info_in_info{width: 95%; margin: 2em 0 2em 0;}
+table.info_in_info th{padding:0.2em 0 0.2em 0; text-transform: uppercase; text-align: left;}
+table.info_in_info th a{color:#cd5c5c;}
+table.info_in_info p{}
+table.info_in_info p a{color:#000033;}
+
+div.banner_left{width:350px; background-color:#fbfbfb; border:1px solid #eaeaea; margin:20px 0 0 0;}
+div.banner_left span{font-size: 0.7em; background-color:#ffd700;}
+div.banner_left div{padding: 5px 5px 5px 5px;}
+div.banner_left div p.banner_left_header {margin:0 0 5px 0;}
+div.banner_left div p.banner_left_header a{color:#0000ff; font-size: 0.95em;}
+div.banner_left div p.banner_left_body {margin:0 0 5px 0;}
+div.banner_left div p.banner_left_footer {color:#009933;}

@@ -1,0 +1,7 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /region/country/uae/hotels/abc
+RewriteRule ^letter/([^/]*)\.html$ /region/country/uae/hotels/abc/?letter=$1 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

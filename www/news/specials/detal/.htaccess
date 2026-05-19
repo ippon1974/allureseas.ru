@@ -1,0 +1,7 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /news/specials/detal
+RewriteRule ^id/([^/]*)\.html$ /news/specials/detal/?id=$1 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+

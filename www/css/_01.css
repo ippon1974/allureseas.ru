@@ -1,0 +1,7 @@
+table.visa_screen tr.odd {
+background-color: #fcfcfc; /* желтый цвет дл€ нечетных €чеек */ 
+}    
+table.visa_screen tr.even {  
+background-color: #eaeaea; /* синий цвет дл€ четных €чеек */ 
+}
+

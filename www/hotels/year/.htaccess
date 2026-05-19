@@ -1,0 +1,8 @@
+AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+RewriteBase /hotels/year
+RewriteRule ^page/([^/]*)\.html$ /hotels/year/?page=$1 [L]
+RewriteRule ^founded/([^/]*)\.html$ /hotels/year/?founded=$1 [L]
+RewriteRule (.+)(/)$ $1.html [L,QSA]
+
