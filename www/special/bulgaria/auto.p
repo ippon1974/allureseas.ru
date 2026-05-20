@@ -47,7 +47,7 @@ $cookie_select[^cookie.select($cookie.uin eq "$cookie:special")]
 	<dd class="hotel_detal"><a href="/special/detal/id/$special_select.id/" title="Отель $special_select.hotel_name_en">Отель $special_select.hotel_name_en</a><sup>$h_hotels.hotel_rating_img.[$special_select.hotel_rating_id]</sup></dd>
 	$total[^if(^currency.locate[id;$special_select.price_type]){$currency.currency}{}]
 	$total_rub[^if($special_select.price){$text(^eval($special_select.price*$total))}{}]
-	^if($special_select.price){<dd class="dt"><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС 18%</em>)</span></dd>}{}
+	^if($special_select.price){<dd class="dt"><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС ^ndc[] </em>)</span></dd>}{}
 	^if(def $special_select.hotel_power){<dd class="hotel_power"><span>^untaint[as-is]{$special_select.hotel_power}</span></dd>}{}
 	<dd><span>Кол-во человек: ^num_decline[$found_human; $found_human взрослый; $found_human взрослых; $found_human взрослых] ^if($special_select.child_count){ + ^num_decline[$found_human_child; $found_human_child ребенок; $found_human_child детей; $found_human_child детей]}{}</span></dd>
 	^if($special_select.night_count){<dd class="dt"><span>Кол-во ночей: $special_select.night_count</span></dd>}{}
