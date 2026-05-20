@@ -84,7 +84,7 @@ $h_hotels.hotel_country.[$catalog_cell.country_id] $h_hotels.hotel_resort_ru.[$c
 	<dd>Кол-во человек: ^num_decline[$found_human; $found_human взрослый; $found_human взрослых; $found_human взрослых] ^if($special_is_archive.child_count){ + ^num_decline[$found_human_child; $found_human_child ребенок; $found_human_child детей; $found_human_child детей]}{}.</dd>
 	$total[^if(^currency.locate[id;$special_is_archive.price_type]){$currency.currency}{}]
 	$total_rub[^if($special_is_archive.price){$text(^eval($special_is_archive.price*$total))}{}]
-	^if($special_is_archive.price){<dd><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС 18%</em>)</span></dd>}{}
+	^if($special_is_archive.price){<dd><span>Стоимость тура в рублях РФ: $text (<em>^int2str:money2str($text) в т.ч. НДС ^ndc[]</em>)</span></dd>}{}
 	</dl>
 	</td>
 	</tr>

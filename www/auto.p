@@ -124,6 +124,10 @@ $h_exchange[
 ]
 #@h_exchange[]
 
+@ndc[]
+22%
+#@ndc[]
+
 @company_name_ru[]
 &laquo^;Привлекательность Морей&raquo^;
 #@company_name_ru[]

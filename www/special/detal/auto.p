@@ -292,7 +292,7 @@ $parts.0 ($h_weather.day_names_long.[$parts.1])
 </tr>
 <tr>
 <td class="blank_hotel_view_left">Стоимость тура</td>
-<td>$text (<em>^int2str:money2str($text) в т.ч. НДС 22%</em>)</td>
+<td>$text (<em>^int2str:money2str($text) в т.ч. НДС ^ndc[]</em>)</td>
 </tr>
 </table>
 #@blank_hotel_view[]
