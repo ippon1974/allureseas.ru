@@ -42,6 +42,7 @@ $found(^hotel_year.count[])
 	^if(def $hotel_year.founded_date){Построен: $hotel_year.founded_date г.<br />}{}^if(def $hotel_year.building_conservation_date){Реконструирован: $hotel_year.building_conservation_date г.}{}</p>
 	</td>
 	</tr>
+	<tr><td><br/></td></tr>
 	}
 	</table>
 	</td>
