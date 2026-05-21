@@ -14,63 +14,6 @@
 <script type="text/javascript" src="/js/jquery-1.5.2.min.js"></script>
 <script type="text/javascript" src="/js/datepicker/jquery-ui-1.8.11.custom.min.js"></script>
 	<title>^title_global[]</title>
-
-    <style>
-      html, body, #map-canvas {
-		height: 95%^;
-        margin: 0px^;
-        padding: 0px
-      }
-    </style>
-	
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<script>
-function initialize() {
-  
-var myLatlng = new google.maps.LatLng(55.751964, 37.585265)^;
- 
-var styleArray = [
-    {
-      featureType: 'all',
-      stylers: [
-	    { hue: '#6699cc' },
-        { saturation: 100 }
-      ]
-    },{
-      featureType: 'road.arterial',
-      elementType: 'geometry',
-      stylers: [
-        { hue: '#4682b4' },
-        { saturation: 100 }
-      ]
-    },{
-      featureType: 'poi.business',
-      elementType: 'labels',
-      stylers: [
-        { visibility: 'off' }
-      ]
-    }
-  ];
-  
-  
-  var mapOptions = {
-    zoom: 15,
-    styles: styleArray,
-    center: myLatlng,
-	mapTypeId: google.maps.MapTypeId.TERRAIN
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)^;
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Офис № 1646, ул. Новый Арбат д. 21, г. Москва, 119019'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize)^;
-
-</script>
 </head>
 #@head[]
 
@@ -100,9 +43,11 @@ google.maps.event.addDomListener(window, 'load', initialize)^;
 <tr>
 <td colspan="3">
 <br />
-<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
-<div id="map-canvas" style="border: 2px solid #6495ed^; width: 100%^; height: 400px^;"></div>
-<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+
+<div style="border:3px solid #6495ed"^;>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A830e8d24c744cb5f038d522979c3cb26b4ce689a93af0f65d5a2008133006497&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+
 </td>
 </tr>
 </table><br />
