@@ -60,6 +60,7 @@ $h_hotels.hotel_country.[$catalog_cell.country_id] $h_hotels.hotel_resort_ru.[$c
 ^if(def $catalog_cell.founded_date){Построен: $catalog_cell.founded_date г.<br />}{}^if(def $catalog_cell.building_conservation_date){Реконструирован: $catalog_cell.building_conservation_date г.}{}</p>
 </td>
 </tr>
+<tr><td colspan="2"><br /></td></tr>
 }
 </table>
 	

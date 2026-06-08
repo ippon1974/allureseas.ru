@@ -57,9 +57,10 @@ $catalog_cell[^catalog.select($catalog.country_id==^paramCountryId[])]
 ^if(def $catalog_cell.hotel_img_front){<td width="135px"><a href="/hotels/detal/id/$catalog_cell.id/" title="$catalog_cell.hotel_name_en"><img class="thumb" src="/hotels/img/f/${catalog_cell.hotel_img_front}.jpg" alt="Отель $catalog_cell.hotel_name_en" border="0"></a></td>}{}
 <td><p><strong><a href="/hotels/detal/id/$catalog_cell.id/" title="Отель $catalog_cell.hotel_name_en">$catalog_cell.hotel_name_en</a> $catalog_cell.hotel_rating <sup>$h_hotels.hotel_rating_img.[$catalog_cell.hotel_rating_type]</sup></strong><br />
 $h_hotels.hotel_country.[$catalog_cell.country_id] $h_hotels.hotel_resort_ru.[$catalog_cell.resort_id]<br/>$catalog_cell.location<br />
-^if(def $catalog_cell.founded_date){Построен: $catalog_cell.founded_date г.<br />}{}^if(def $catalog_cell.building_conservation_date){Реконструирован: $catalog_cell.building_conservation_date г.}{}</p>
+^if(def $catalog_cell.founded_date){Построен: $catalog_cell.founded_date г.<br />}{}^if(def $catalog_cell.building_conservation_date){Реконструирован: $catalog_cell.building_conservation_date г.}</p>
 </td>
 </tr>
+<tr><td colspan="2"><br /></td></tr>
 }
 </table>
 	
@@ -92,10 +93,7 @@ $h_hotels.hotel_country.[$catalog_cell.country_id] $h_hotels.hotel_resort_ru.[$c
 	</table>
 	}{}
 	
-	
 	</td>
 </tr>
 </table>
-
-
 #@printalfa[]
