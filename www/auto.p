@@ -179,8 +179,8 @@ $result[<noindex>Офис № 1646, ул. Новый Арбат д. 21, г. Москва, 119019.</noindex
 <div class="banner_left">
 <span>Реклама</span>
 <div>
-<p class="banner_left_header"><a href="http://wcut.ru/works/" title="Художественная резка природного и искусственного камня по чертежам заказчика. " target="_blank">Художественная резка природного и искусственного камня по чертежам заказчика.</a></p>
-<p class="banner_left_body">Столешницы на кухню, мозаики, панно.</p>
+<p class="banner_left_header"><a href="http://htz.ru/services/makestone/" title="Производство изделий из камня" target="_blank">Производство изделий из камня</a></p>
+<p class="banner_left_body">Столешницы на кухню, ступени, подоконники.</p>
 <p class="banner_left_footer">Москва</p>
 </div>
 <div>
